@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "saso_nlp"
+version = "0.1.0"
+description = ""
+authors = ["JunpyoJang <jnn6576@naver.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.2"
+tensorflow = "2.6.0"
+transformers = "4.11.3"
+gluonnlp = "0.10.0"
+numpy = "1.19.5"
+mxnet = "^1.8.0"
+keras = "2.6.0"
+sentencepiece = "0.1.96"
+flask-restx = "^0.5.1"
+openpyxl = "^3.0.9"
+selenium = "^4.0.0"
+SQLAlchemy = "^1.4.26"
+PyMySQL = "^1.0.2"
+google-api-python-client = "^2.30.0"
+google-auth-oauthlib = "^0.4.6"
+google-auth-httplib2 = "^0.1.0"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
